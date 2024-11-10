@@ -1,0 +1,260 @@
+<div class="body">
+  <div class="container px-4 px-lg-5 my-5">
+      <div class="text-center text-white">
+          <h1 class="display-4 fw-bolder">NITRO GASS</h1>
+          <p class="lead fw-normal text-white-50 mb-0"> our product and details</p>
+      </div>
+  </div>
+
+
+
+<section class="py-5">
+  <div class="container px-4 px-lg-5 mt-5">
+      <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+
+          <div class="col mb-5">
+              <div class="card h-100">
+                <img
+                class="card-img-top"
+                src="/assets/1kg.png"
+                alt="nitro mini"
+                style="height: 200px; width: auto; object-fit: contain;"
+            />
+            <div class="card-body p-4">
+                <div class="text-center">
+                    <h3 class="fw-bolder">{{items[0].name}}</h3>
+                    <h4>{{items[0].weight}} of gas</h4>
+                    {{items[0].details}}
+                    <br>
+                    <span style="font-weight: bold;">{{items[0].price}}</span>
+                </div>
+            </div>
+            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                <div class="text-center">
+                    <button class="btn btn-outline-dark mt-auto" (click)="setItemDetails(items[0]); openCartModal(items[0])">Add to Cart</button>
+                </div>
+              </div>
+          </div>
+          </div>
+
+
+
+          <div class="col mb-5" style="width: 18rem;">
+            <div class="card h-100">
+                <img
+                    class="card-img-top"
+                    src="/assets/2.5kg.png"
+                    alt="nitro mini"
+                    style="height: 200px; width: auto; object-fit: contain;"
+                />
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <h3 class="fw-bolder">{{items[1].name}}</h3>
+                    <h4>{{items[1].weight}} of gas</h4>
+                    {{items[1].details}}
+                    <br>
+                    <span style="font-weight: bold;">{{items[1].price}}</span>
+                    </div>
+                </div>
+                <!-- Product actions-->
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center">
+                      <a class="btn btn-outline-dark mt-auto" href="cart">Add to Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+          <div class="col mb-5">
+              <div class="card h-100">
+                <img
+                class="card-img-top"
+                src="/assets/3.5kg.png"
+                alt="nitro mini"
+                style="height: 200px; width: auto; object-fit: contain;"
+            />
+                  <div class="card-body p-4">
+                      <div class="text-center">
+                        <h3 class="fw-bolder">{{items[2].name}}</h3>
+                    <h4>{{items[2].weight}} of gas</h4>
+                    {{items[2].details}}
+                    <br>
+                    <span style="font-weight: bold;">{{items[2].price}}</span>
+                      </div>
+                  </div>
+
+                  <!-- Product actions-->
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center">
+                        <a class="btn btn-outline-dark mt-auto" href="cart">Add to Cart</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+
+
+
+
+
+          <div class="col mb-5">
+              <div class="card h-100">
+                <img
+                class="card-img-top"
+                src="/assets/5kg.png"
+                alt="nitro mini"
+                style="height: 200px; width: auto; object-fit: contain;"
+            />
+                  <div class="card-body p-4">
+                    <div class="text-center">
+                        <h3 class="fw-bolder">{{items[3].name}}</h3>
+                    <h4>{{items[3].weight}} of gas</h4>
+                    {{items[3].details}}
+                    <br>
+                    <span style="font-weight: bold;">{{items[3].price}}</span>
+                      </div>
+                  </div>
+
+                  <!-- Product actions-->
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center">
+                        <a class="btn btn-outline-dark mt-auto" href="cart">Add to Cart</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+
+
+
+
+
+
+
+
+          <div class="col mb-5">
+              <div class="card h-100">
+                  <img
+                  class="card-img-top"
+                  src="/assets/7.5kg.png"
+                  alt="nitro mini"
+                  style="height: 200px; width: auto; object-fit: contain;"
+              />
+                  <div class="card-body p-4">
+                    <div class="text-center">
+                        <h3 class="fw-bolder">{{items[4].name}}</h3>
+                    <h4>{{items[4].weight}} of gas</h4>
+                    {{items[4].details}}
+                    <br>
+                    <span style="font-weight: bold;">{{items[4].price}}</span>
+                      </div>
+                  </div>
+
+                  <!-- Product actions-->
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center">
+                        <a class="btn btn-outline-dark mt-auto" href="cart">Add to Cart</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+
+
+
+
+          <div class="col mb-5">
+              <div class="card h-100">
+
+                <img
+                class="card-img-top"
+                src="/assets/12kg.png"
+                alt="nitro mini"
+                style="height: 200px; width: auto; object-fit: contain;"
+            />
+                  <div class="card-body p-4">
+                    <div class="text-center">
+                        <h3 class="fw-bolder">{{items[5].name}}</h3>
+                    <h4>{{items[5].weight}} of gas</h4>
+                    {{items[5].details}}
+                    <br>
+                    <span style="font-weight: bold;">{{items[5].price}}</span>
+                      </div>
+                  </div>
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center">
+                        <a class="btn btn-outline-dark mt-auto" href="cart">Add to Cart</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+
+
+
+          <div class="col mb-5">
+              <div class="card h-100">
+                  <img
+                class="card-img-top"
+                src="/assets/20kg.png"
+                alt="nitro mini"
+                style="height: 200px; width: auto; object-fit: contain;"
+            />
+                  <div class="card-body p-4">
+                    <div class="text-center">
+                        <h3 class="fw-bolder">{{items[6].name}}</h3>
+                    <h4>{{items[6].weight}} of gas</h4>
+                    {{items[6].details}}
+                    <br>
+                    <span style="font-weight: bold;">{{items[6].price}}</span>
+                      </div>
+                  </div>
+
+                  <!-- Product actions-->
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center">
+                        <a class="btn btn-outline-dark mt-auto" href="cart">Add to Cart</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+
+
+
+          <div class="col mb-5">
+              <div class="card h-100">
+                  <img
+                  class="card-img-top"
+                  src="/assets/50kg.png"
+                  alt="nitro mini"
+                  style="height: 200px; width: auto; object-fit: contain;"
+              />
+                  <div class="card-body p-4">
+                    <div class="text-center">
+                        <h3 class="fw-bolder">{{items[7].name}}</h3>
+                    <h4>{{items[7].weight}} of gas</h4>
+                    {{items[7].details}}
+                    <br>
+                    <span style="font-weight: bold;">{{items[7].price}}</span>
+                      </div>
+                  </div>
+
+                  <!-- Product actions-->
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center">
+                        <a class="btn btn-outline-dark mt-auto" href="cart">Add to Cart</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+</div>
