@@ -27,12 +27,10 @@
               }
             ],
             "styles": [
-              "src/styles.css",
-              "node_modules/bootstrap/dist/css/bootstrap.min.css"
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/styles.css"
             ],
-            "scripts": [
-              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
-            ],
+            "scripts": [  "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"],
             "server": "src/main.server.ts",
             "prerender": true,
             "ssr": {
@@ -102,6 +100,6 @@
     }
   },
   "cli": {
-    "analytics": "d96c9da6-61ce-4624-a5dd-d3b8f840b8b6"
+    "analytics": "458eeb21-1e3c-4718-8232-f6fb9be57859"
   }
 }
